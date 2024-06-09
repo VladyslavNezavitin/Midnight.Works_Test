@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38bd92d373b905f47ab5f22a0141e0d4, type: 3}
+  m_Name: Engine_Default
+  m_EditorClassIdentifier: 
+  _name: Default Engine
+  _price: 2500
+  _icon: {fileID: 21300026, guid: a76b481fa37db7c40a6b6b020d7a32a5, type: 3}
+  _type: 1
+  _model: {fileID: 1236612286350410772, guid: e8862b5996cdf1c43a033a38d327661a, type: 3}
+  _stats:
+    enginePower: 0
+    maxSpeed: 0
+    control: 0

@@ -1,0 +1,27 @@
+<dependencies>
+  <packages>
+    <package>com.google.android.gms:play-services-ads-identifier:18.0.1</package>
+    <package>com.google.android.gms:play-services-basement:18.1.0</package>
+    <package>com.ironsource.adapters:unityadsadapter:4.3.40</package>
+    <package>com.ironsource.sdk:mediationsdk:8.1.0</package>
+    <package>com.unity3d.ads:unity-ads:4.12.0</package>
+  </packages>
+  <files>
+    <file>Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/androidx.webkit.webkit-1.6.1.aar</file>
+    <file>Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.6.4.jar</file>
+  </files>
+  <settings>
+    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="bundleId" value="com.UnityTechnologies.com.unity.template.urpblank" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="False" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>

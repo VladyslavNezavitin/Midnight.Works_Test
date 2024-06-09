@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4455d7c8aca3532419b6ccb9c8b1d7ac, type: 3}
+  m_Name: Config_Hatchback
+  m_EditorClassIdentifier: 
+  _name: Hatchback
+  _price: 10000
+  _icon: {fileID: 21300008, guid: a76b481fa37db7c40a6b6b020d7a32a5, type: 3}
+  _baseStats:
+    enginePower: 0
+    maxSpeed: 0
+    control: 0
+  _configuratorPrefab: {fileID: 5320081990879041783, guid: 554bd4a645530824a89f0bf4f64be695,
+    type: 3}
+  _tunables:
+    _groups:
+    - name: Engine
+      type: 1
+      entities:
+      - {fileID: 11400000, guid: c1173bca9c8658249b70f372d529b96b, type: 2}
+      - {fileID: 11400000, guid: e045dcedd6bdf2742aa60f530986f49b, type: 2}
+      canBeTuned: 1
+    - name: Wheels
+      type: 3
+      entities:
+      - {fileID: 11400000, guid: 74f5c06e74bfbb84aa78bbb2a4fee29a, type: 2}
+      - {fileID: 11400000, guid: e413bce9a5188ad459147e0dc9132a09, type: 2}
+      canBeTuned: 1
