@@ -1,4 +1,5 @@
 A small multiplayer drifting game prototype for android (test task).
+
 Implemented:
 Drifting controller and car physics (based on unity wheel colliders)
 Multiplayer gameplay (Photon PUN2): game states, synchronization, level timer, spawnpoints
